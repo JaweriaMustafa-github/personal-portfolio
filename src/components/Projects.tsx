@@ -5,9 +5,9 @@ const Projects = () => {
   return (
     <section id="projects" className="py-16 bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 text-gray-800">
       <div className="container mx-auto text-center">
-        <h2 className="text-4xl font-semibold mb-6 text-white">Projects</h2>
+        <h2 className="text-4xl font-bold mb-6 text-white">Projects</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div className="bg-gradient-to-r from-orange-500 to-pink-500 p-6 rounded-lg shadow-md">
+          <div className="bg-gradient-to-r from-orange-500 to-pink-500 hover:transition-transform duration-300 hover:scale-105 p-6 rounded-lg shadow-md">
             <h3 className="text-xl font-semibold text-white mb-4">Project 1 : Countdown Timer</h3>
             <Image src="/images/cdt-1.png" alt='Cowntdown-timer' width={342} height={342}></Image>
             <p className="text-white">
@@ -17,7 +17,7 @@ const Projects = () => {
             <br />
             <a className='text-purple-800' target='blank' href="https://github.com/JaweriaMustafa-github/countdown-timer.git">Github Repo</a>
           </div>
-          <div className="bg-gradient-to-r from-orange-500 to-pink-500 p-6 rounded-lg shadow-md">
+          <div className="bg-gradient-to-r from-orange-500 to-pink-500 hover:transition-transform duration-300 hover:scale-105 p-6 rounded-lg shadow-md">
             <h3 className="text-xl font-semibold text-white mb-4">Project 2 : Todo List</h3>
             <Image src="/images/todo.png" alt='Cowntdown-timer' width={342} height={342}></Image>
             <p className="text-white">
@@ -27,7 +27,7 @@ const Projects = () => {
             <br />
             <a className='text-purple-800' target='blank' href="https://github.com/JaweriaMustafa-github/countdown-timer.git">Github Repo</a>
           </div>
-          <div className="bg-gradient-to-r from-orange-500 to-pink-500 p-6 rounded-lg shadow-md">
+          <div className="bg-gradient-to-r from-orange-500 to-pink-500 hover:transition-transform duration-300 hover:scale-105 p-6 rounded-lg shadow-md">
             <h3 className="text-xl font-semibold text-white mb-4">Project 3 : ID Card UI</h3>
             <Image src="/images/Id card.png" alt='Cowntdown-timer' width={342} height={342}></Image>
             <p className="text-white">

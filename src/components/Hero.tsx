@@ -25,9 +25,9 @@ export default function Hero() {
 
         {/* Navbar Links */}
         <ul className={`md:flex md:flex-row flex-col md:space-x-8 space-y-4 md:space-y-0 transition-all duration-300 ${isMenuOpen ? 'block' : 'hidden'}`}>
-          <li><a href="#about" className="hover:text-purple-800">About</a></li>
-          <li><a href="#projects" className="hover:text-purple-800">Projects</a></li>
-          <li><a href="#contact" className="hover:text-purple-800">Contact</a></li>
+          <li><a href="#about" className="hover:text-purple-800 hover:font-bold hover:scale-105 hover:transition-transform duration-300">About</a></li>
+          <li><a href="#projects" className="hover:text-purple-800 hover:font-bold hover:scale-105 hover:transition-transform duration-300">Projects</a></li>
+          <li><a href="#contact" className="hover:text-purple-800 hover:font-bold hover:scale-105 hover:transition-transform duration-300">Contact</a></li>
         </ul>
       </nav>
 
@@ -68,13 +68,13 @@ export default function Hero() {
         </div>
 
         {/* Hero Image */}
-        <div className="w-64 h-64">
+        <div className="w-64 h-64 flex hover:scale-105 duration-300 hover:transition-transform">
           <Image
             src="/images/dp1 (1).png"
             alt="Hero Image"
             width={256}
             height={256}
-            className="rounded-full"
+            className="rounded-full "
           />
         </div>
       </div>

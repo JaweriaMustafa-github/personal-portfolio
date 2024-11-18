@@ -3,12 +3,10 @@ import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 
 const Contact = () => {
-  // Create a reference for the form
   const form = useRef<HTMLFormElement>(null);
   const [isSent, setIsSent] = useState(false);
   const [error, setError] = useState('');
 
-  // Function to handle email sending
   const sendEmail = async (e: React.FormEvent) => {
     e.preventDefault();
 
@@ -18,13 +16,13 @@ const Contact = () => {
           'service_1oo50qx',   
           'template_l81a6w6',  
           form.current,
-          '7D3qAVMb7Qc3iINWH'    
+          '7D3qAVMb7Qc3iINWH'
         );
 
         console.log('Email sent:', result.text);
         setIsSent(true);
         setError('');
-        form.current.reset(); // Clear form fields after successful submission
+        form.current.reset();
       } catch (err) {
         console.error('Email sending error:', err);
         setError('Failed to send message. Please try again.');
@@ -38,11 +36,11 @@ const Contact = () => {
         <h2 className="text-4xl font-semibold mb-6">Contact</h2>
         <p className="text-lg mb-6">Feel free to reach out to me if you&apos;d like to connect or collaborate!</p>
 
-        {isSent && <p className="text-purple-900 mb-4">Thanks for Contacting Us.Message sent successfully!</p>}
+        {isSent && <p className="text-purple-900 mb-4">Thanks for contacting us! Message sent successfully!</p>}
         {error && <p className="text-red-600 mb-4">{error}</p>}
 
         <form ref={form} onSubmit={sendEmail} className="max-w-lg mx-auto">
-        <input
+          <input
             type='text'
             name="user_name"
             placeholder="Your Name"
