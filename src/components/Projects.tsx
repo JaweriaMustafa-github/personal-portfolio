@@ -28,7 +28,7 @@ const Projects = () => {
             <a className='text-purple-800' target='blank' href="https://github.com/JaweriaMustafa-github/countdown-timer.git">Github Repo</a>
           </div>
           <div className="bg-gradient-to-r from-orange-500 to-pink-500 p-6 rounded-lg shadow-md">
-            <h3 className="text-xl font-semibold text-white mb-4">Project 2 : Todo List</h3>
+            <h3 className="text-xl font-semibold text-white mb-4">Project 3 : ID Card UI</h3>
             <Image src="/images/Id card.png" alt='Cowntdown-timer' width={342} height={342}></Image>
             <p className="text-white">
               An ID CARD UI built using Next.js and Tailwind CSS, showcasing dynamic content and responsiveness.
