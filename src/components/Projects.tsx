@@ -13,7 +13,7 @@ const Projects = () => {
             <p className="text-white">
               A COUNTDOWN TIMER built using Next.js and Tailwind CSS, showcasing dynamic content and responsiveness.
             </p>
-            <a className='text-purple-800' target='blank' href="https://id-card-ui.vercel.app">Visit</a>
+            <a className='text-purple-800' target='blank' href="https://countdown-timer-nu-one.vercel.app">Visit</a>
             <br />
             <a className='text-purple-800' target='blank' href="https://github.com/JaweriaMustafa-github/countdown-timer.git">Github Repo</a>
           </div>
@@ -23,7 +23,7 @@ const Projects = () => {
             <p className="text-white">
               A TODO LIST APP built using Next.js and Tailwind CSS, showcasing dynamic content and responsiveness.
             </p>
-            <a className='text-purple-800' target='blank' href="https://countdown-timer-nu-one.vercel.app">Visit</a>
+            <a className='text-purple-800' target='blank' href="https://my-todo-list-app-nine.vercel.app">Visit</a>
             <br />
             <a className='text-purple-800' target='blank' href="https://github.com/JaweriaMustafa-github/countdown-timer.git">Github Repo</a>
           </div>
@@ -33,7 +33,7 @@ const Projects = () => {
             <p className="text-white">
               An ID CARD UI built using Next.js and Tailwind CSS, showcasing dynamic content and responsiveness.
             </p>
-            <a className='text-purple-800' target='blank' href="https://my-todo-list-app-nine.vercel.app">Visit</a>
+            <a className='text-purple-800' target='blank' href="https://id-card-ui.vercel.app">Visit</a>
             <br />
             <a className='text-purple-800' target='blank' href="https://github.com/JaweriaMustafa-github/countdown-timer.git">Github Repo</a>
           </div>
