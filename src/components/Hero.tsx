@@ -37,7 +37,7 @@ export default function Hero() {
       <div className="flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-12 pt-56">
         {/* Hero Text */}
         <div className="text-center md:text-left">
-          <h2 className="text-4xl md:text-6xl font-bold text-purple-200">Hello, I'm</h2>
+          <h2 className="text-4xl md:text-6xl font-bold text-purple-200">Hello, I&apos;m</h2>
           <h1 className="text-5xl md:text-7xl font-extrabold">Jaweria Mustafa</h1>
           <p className="mt-4 text-gray-200 max-w-md">
             I create beautiful and functional web experiences.

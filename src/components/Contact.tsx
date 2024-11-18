@@ -6,7 +6,7 @@ const Contact = () => {
     <section id="contact" className="py-16 bg-gradient-to-r from-orange-500 to-pink-500 text-gray-800">
       <div className="container mx-auto py-5 my-5 text-center">
         <h2 className="text-4xl font-semibold mb-6">Contact</h2>
-        <p className="text-lg mb-6">Feel free to reach out to me if you'd like to connect or collaborate!</p>
+        <p className="text-lg mb-6">Feel free to reach out to me if you&apos;d like to connect or collaborate!</p>
         <form action="#" method="POST" className="max-w-lg mx-auto">
           <input
             type="email"

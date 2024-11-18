@@ -7,7 +7,7 @@ const About = () => {
       <div className="container mx-auto text-center">
         <h2 className="text-4xl font-semibold mb-6">About Me</h2>
         <p className="text-lg max-w-2xl mx-auto">
-          I'm a passionate web developer with a love for creating interactive and dynamic user experiences. I specialize in
+          I&apos;m a passionate web developer with a love for creating interactive and dynamic user experiences. I specialize in
           building responsive websites and applications using modern technologies like HTML, CSS,Typescript, Next.js, and Tailwind CSS.
         </p>
         <h3 className='text-2xl'>My Links</h3>
