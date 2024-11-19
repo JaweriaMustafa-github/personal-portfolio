@@ -1,7 +1,10 @@
 'use client'
 import { useState } from 'react';
 import Image from 'next/image';
-import Typed from  'react-typed';
+import dynamic from 'next/dynamic';
+
+const Typed = dynamic(() => import('react-typed'), { ssr: false });
+
 
 export default function Hero() {
   // State to toggle the navbar visibility on mobile
