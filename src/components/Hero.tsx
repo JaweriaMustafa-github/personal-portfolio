@@ -5,7 +5,6 @@ import dynamic from 'next/dynamic';
 
 const Typed = dynamic(() => import('react-typed'), { ssr: false });
 
-
 export default function Hero() {
   // State to toggle the navbar visibility on mobile
   const [isMenuOpen, setIsMenuOpen] = useState(false);
