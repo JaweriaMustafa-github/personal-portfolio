@@ -1,6 +1,7 @@
 'use client'
 import { useState } from 'react';
 import Image from 'next/image';
+import Typed from 'react-typed';
 
 
 export default function Hero() {
