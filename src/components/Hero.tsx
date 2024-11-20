@@ -1,7 +1,7 @@
 'use client'
 import { useState } from 'react';
 import Image from 'next/image';
-import Typed from 'react-typed';
+import TypedText from './TypedText';
 
 
 export default function Hero() {
@@ -40,7 +40,16 @@ export default function Hero() {
 
           <span className="text-5xl md:text-7xl font-extrabold text-pink-200">
           {/* Typing Animation */}
-          <p>Jaweria Mustafa</p>
+          <TypedText
+            strings={[
+              'Jaweria Mustafa',
+              'UI/UX Designer',
+              'Frontend Web Developer'
+            ]}
+            typeSpeed={80}
+            backSpeed={50}
+            loop
+          />
           </span>
 
           <p className="mt-4 text-gray-200 max-w-md">
